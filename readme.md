@@ -9,11 +9,11 @@ See below for examples. [Read more at http://wesbos.com/cobalt2-theme-sublime-te
 
 1. Open package control `tools` → `Command Palette` and type `Install Package`
 2. Search for Cobalt2 and hit enter
-3. Penultimately, open `Preferences` → `Settings - User`. Add the following lines. Only the first two are required but I recommend using all of them: 
-   
+3. Penultimately, open `Preferences` → `Settings - User`. Add the following lines. Only the first two are required but I recommend using all of them:
+
    ```json
    "color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
-   "theme": "Cobalt2.sublime-theme",   
+   "theme": "Cobalt2.sublime-theme",
    "highlight_line": true,
    "indent_guide_options": [ "draw_normal", "draw_active" ],
 	"highlight_modified_tabs": true,
@@ -49,6 +49,15 @@ Adjust the sidebar's padding by using these settings in your user config:
 "sidebar_xlarge": true
 }
 ```
+#### Status Bar Font Size
+Change the status bar's font size by using these settings in your user config:
+```json
+{
+    "statusbar_font_medium": true,
+    "statusbar_font_large": true,
+    "statusbar_font_xlarge": true
+}
+```
 
 ## Requirements
 
@@ -67,7 +76,7 @@ Adjust the sidebar's padding by using these settings in your user config:
 
 ### Indentation Guides — Guide, Stacked Guide and Active Guide
 
-Use `"indent_guide_options": ["draw_normal", "draw_active"]` for this 
+Use `"indent_guide_options": ["draw_normal", "draw_active"]` for this
 
 ### GitGutter Support
 
@@ -77,7 +86,7 @@ Use `"indent_guide_options": ["draw_normal", "draw_active"]` for this
 
 ![](http://wes.io/YItl/content)
 
-### Command Palette 
+### Command Palette
 
 ![](http://wes.io/YIpV/content)
 

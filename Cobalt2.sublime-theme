@@ -445,6 +445,24 @@
         "shadow_color": [25, 25, 25],
         "shadow_offset": [0, -1]
     },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "settings": ["statusbar_font_medium"],
+        "font.size": 12
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "settings": ["statusbar_font_large"],
+        "font.size": 14
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "settings": ["statusbar_font_xlarge"],
+        "font.size": 16
+    },
 
 //
 // SIDEBAR
